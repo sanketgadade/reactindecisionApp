@@ -1,0 +1,17 @@
+{
+  "name": "indecision",
+  "version": "1.0.0",
+  "description": "test app from scratch",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react-scripts": "^2.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanket Gadade",
+  "license": "ISC"
+}
