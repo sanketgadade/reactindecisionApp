@@ -12,7 +12,7 @@ class IndecisionApp extends React.Component{
             options:[]
         };
     }
-  //test again hh
+  //test code from master
     
     //as props is ome way we defined here this method to erase all element from array
      handleDeleteOptions(){
