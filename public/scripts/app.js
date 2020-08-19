@@ -26,6 +26,9 @@ var IndecisionApp = function (_React$Component) {
     return _this;
   }
 
+  //store current data in local storage
+
+
   _createClass(IndecisionApp, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
@@ -42,6 +45,9 @@ var IndecisionApp = function (_React$Component) {
         // Do nothing at all
       }
     }
+
+    //store updated data in local storage
+
   }, {
     key: 'componentDidUpdate',
     value: function componentDidUpdate(prevProps, prevState) {
@@ -50,6 +56,9 @@ var IndecisionApp = function (_React$Component) {
         localStorage.setItem('options', json);
       }
     }
+
+    //called when component  get vanished
+
   }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
