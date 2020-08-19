@@ -4,6 +4,7 @@
   "description": "test app from scratch",
   "main": "index.js",
   "dependencies": {
+    "@expo/babel-preset-cli": "^0.2.17",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "react-scripts": "^2.1.8"
