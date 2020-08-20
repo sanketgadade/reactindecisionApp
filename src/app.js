@@ -1,7 +1,7 @@
 
   
   // seperated all remaining component
-
+// refer oher component
 import React from 'react';
 import ReactDOM from 'react-dom';
 import IndecisionApp from './components/IndecisionApp';
