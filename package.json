@@ -4,13 +4,37 @@
   "description": "test app from scratch",
   "main": "index.js",
   "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@expo/babel-preset-cli": "^0.2.17",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "react-scripts": "^2.1.8"
+    "css-loader": "^4.2.1",
+    "gulp-bro": "^2.0.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-scripts": "^2.1.8",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "validator": "^13.1.1",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack-cli": "^3.3.12"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "author": "sanket Gadade",
   "license": "ISC"
